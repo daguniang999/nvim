@@ -10,10 +10,11 @@ keymap.set("n", "<leader>nh", ":nohl<CR>")
 keymap.set("n", "x", '"_x')
 
 -- 分割窗口设置
-keymap.set("n", "<leader>sv", "<C-w>v")
-keymap.set("n", "<leader>sh", "<C-w>s")
-keymap.set("n", "<leader>se", "<C-w>=")
-keymap.set("n", "<leader>sx", ":close<CR>")
+keymap.set("n", "<leader>ww", "<C-w>v")
+keymap.set("n", "<leader>wv", "<C-w>v")
+keymap.set("n", "<leader>wh", "<C-w>s")
+keymap.set("n", "<leader>we", "<C-w>=")
+keymap.set("n", "<leader>wx", ":close<CR>")
 
 -- tab设置
 keymap.set("n", "<leader>to", ":tabnew<CR>")
@@ -24,8 +25,10 @@ keymap.set("n", "<leader>tp", ":tabp<CR>")
 -- 设置 s 映射 Nop, 防止误触
 keymap.set("n", "s", "<Nop>")
 
-keymap.set("i", "<C-h>", "<ESC>I")
-keymap.set("i", "<C-l>", "<ESC>A")
+keymap.set("i", "<C-H>", "<ESC>I")
+keymap.set("i", "<C-L>", "<ESC>A")
+keymap.set("n", "<C-H>", "^")
+keymap.set("n", "<C-L>", "$")
 
 -- 设置分屏窗口最大化
 keymap.set("n", "<leader>sm", ":MaximizerToggle<CR>")
@@ -52,5 +55,10 @@ keymap.set("i", "<C-f>", "<ESC>40ji")
 keymap.set("i", "<C-b>", "<ESC>40ki")
 
 -- bufferline
-keymap.set("n", "H", ":BufferLineCyclePrev<CR>")
-keymap.set("n", "L", ":BufferLineCycleNext<CR>")
+keymap.set("n", "<C-k>", ":BufferLineCyclePrev<CR>")
+keymap.set("n", "<C-j>", ":BufferLineCycleNext<CR>")
+
+keymap.set("n", "H", "<C-W>h")
+keymap.set("n", "J", "<C-W>j")
+keymap.set("n", "K", "<C-W>k")
+keymap.set("n", "L", "<C-W>l")
