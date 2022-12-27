@@ -244,11 +244,14 @@ _G.packer_plugins = {
     path = "/Users/chenxiaowei/.local/share/nvim/site/pack/packer/start/vim-surround",
     url = "https://github.com/tpope/vim-surround"
   },
+<<<<<<< HEAD
   ["vim-tmux-navigator"] = {
     loaded = true,
     path = "/Users/chenxiaowei/.local/share/nvim/site/pack/packer/start/vim-tmux-navigator",
     url = "https://github.com/christoomey/vim-tmux-navigator"
   },
+=======
+>>>>>>> 521bd6712466b895fa819a2f0d4fea6241dcdbdb
   ["which-key.nvim"] = {
     loaded = true,
     path = "/Users/chenxiaowei/.local/share/nvim/site/pack/packer/start/which-key.nvim",

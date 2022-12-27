@@ -31,7 +31,7 @@ return packer.startup(function(use)
 	-- 主题
 	use("bluz71/vim-nightfly-guicolors")
 	-- 分屏切换
-	use("christoomey/vim-tmux-navigator")
+	-- use("christoomey/vim-tmux-navigator")
 	-- 配置窗口最大化
 	use("szw/vim-maximizer")
 	-- 修改包裹符号
